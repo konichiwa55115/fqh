@@ -32,7 +32,7 @@ logging.getLogger("apscheduler.executors.default").propagate = False
 media_group = {}
 bot = Client("teletweet", APP_ID, APP_HASH, bot_token=BOT_TOKEN)
 
-ALLOW_USER = os.getenv("ALLOW_USER", "").split(",")
+ALLOW_USER = os.getenv("ALLOW_USER", "6234365091").split(",")
 
 STEP = {}
 
