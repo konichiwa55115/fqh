@@ -23,8 +23,8 @@ access_token_url = "https://api.twitter.com/oauth/access_token"
 authorize_url = "https://api.twitter.com/oauth/authorize"
 show_user_url = "https://api.twitter.com/2/users/me"
 
-APP_CONSUMER_KEY = os.environ.get("CONSUMER_KEY") or "1"
-APP_CONSUMER_SECRET = os.environ.get("CONSUMER_SECRET") or "2"
+APP_CONSUMER_KEY = os.environ.get("CONSUMER_KEY") or "i72lBPnd7xZlKYOl1ELaeUgt4"
+APP_CONSUMER_SECRET = os.environ.get("CONSUMER_SECRET") or "TE6STQVwjok9caTV1g8jjyPmxlbNnN4TbIdJ8GNmkiTFfqEoC4"
 callback_url = os.environ.get("CALLBACK_URL") or "http://127.0.0.1:8888/callback"
 
 oauth_store = {}
